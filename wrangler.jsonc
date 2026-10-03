@@ -4,6 +4,9 @@
   "name": "ade",
   "main": "worker.js",
   "compatibility_date": "2026-09-01",
+  // Publish the site on <name>.<your-subdomain>.workers.dev
+  "workers_dev": true,
+  "preview_urls": true,
   "d1_databases": [
     {
       // The database is created automatically on the first deploy.
