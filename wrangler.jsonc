@@ -1,0 +1,14 @@
+// Cloudflare settings for the ADE Crew Map.
+// "name" must match the name of your Worker in the Cloudflare dashboard.
+{
+  "name": "ade",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-01",
+  "d1_databases": [
+    {
+      // The database is created automatically on the first deploy.
+      "binding": "DB",
+      "database_name": "ade-crew"
+    }
+  ]
+}
