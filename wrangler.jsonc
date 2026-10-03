@@ -7,6 +7,8 @@
   // Publish the site on <name>.<your-subdomain>.workers.dev
   "workers_dev": true,
   "preview_urls": true,
+  // Keep variables added in the Cloudflare dashboard (like CREW_CODE) when a new version deploys.
+  "keep_vars": true,
   "d1_databases": [
     {
       // The database is created automatically on the first deploy.
